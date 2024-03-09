@@ -1,0 +1,20 @@
+.footer_container {
+  padding: 0.625rem;
+  background-color: #00240f;
+  color: #fff;
+  max-width: 105rem;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.grif_dev:hover {
+  color: #ec0000;
+}

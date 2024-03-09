@@ -1,0 +1,15 @@
+.buttons_form {
+  display: flex;
+  gap: 10px;
+}
+.btn-personality {
+  background-color: #00240f;
+  color: #fff;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.btn-personality:hover {
+  background-color: #ec0000;
+  color: #fff;
+}

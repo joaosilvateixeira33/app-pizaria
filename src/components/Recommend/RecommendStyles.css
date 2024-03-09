@@ -1,0 +1,33 @@
+recommend_container {
+  padding: 10px;
+  height: 50%;
+}
+
+.recommend_container > h2 {
+  font-size: 2.1rem;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.recommend_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 480px) {
+  .recommend_container > h2 {
+    font-size: 1.6rem;
+  }
+
+  .recommend_content {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .recommend_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

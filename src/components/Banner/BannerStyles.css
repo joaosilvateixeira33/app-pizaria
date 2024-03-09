@@ -1,0 +1,69 @@
+.banner_style {
+  background-image: url(/src/assets/fundo.jpg);
+  background-size: cover;
+  height: 33rem;
+  color: #fff;
+  max-width: 100%;
+  opacity: 0.9;
+}
+
+.banner_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 187px;
+  right: 56px;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.banner_content > h2 {
+  font-size: 4rem;
+}
+
+.btn_order {
+  background-color: #ec0000 !important;
+  padding: 10px;
+  border-radius: 0.9375rem !important;
+  font-weight: bold !important;
+  font-size: 1.5rem !important;
+  color: #fff;
+}
+
+.btn_order:hover {
+  background-color: transparent !important;
+  border: 2px solid #05a84b;
+  color: #05a84b;
+}
+
+@media (max-width: 480px) {
+  .banner_style {
+    height: 12rem;
+  }
+
+  .banner_content {
+    top: 24px;
+    font-size: 1rem;
+  }
+
+  .banner_content > h2 {
+    font-size: 2rem;
+  }
+
+  .btn_order {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .banner_style{
+    height: 19rem;
+  }
+
+  .banner_content{
+    top: 46px;
+    right: 84px;
+    font-size: 1.4rem;
+  }
+}

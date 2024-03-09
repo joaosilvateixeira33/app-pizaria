@@ -1,0 +1,88 @@
+.navbar {
+  background-color: #ffffffb0 !important;
+  font-family: "Fira Sans", sans-serif;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-toggler .bi {
+  font-size: 1.5rem; /* Adjust the size of the toggler icon */
+  color: #000; /* Set the color of the toggler icon */
+}
+
+.navbar-collapse {
+  width: 100vw !important;
+}
+
+.logoStyle {
+  height: 3rem;
+}
+
+.nav-item {
+  display: flex !important;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 1.0625rem !important;
+  color: #00240f !important;
+  font-weight: bold !important;
+  align-items: center;
+}
+
+.nav-link:hover {
+  color: #ec0000 !important;
+}
+
+.form-button {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.25rem !important;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-sign {
+  background-color: #00240f !important;
+  color: #fff !important;
+  padding: 0.625rem !important;
+  border-radius: 0.9375rem !important;
+  font-weight: bolder !important;
+  font-size: 0.9375rem !important;
+}
+
+.btn-sign:hover {
+  background-color: #ec0000 !important;
+}
+
+.cart-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.btn-cart {
+  color: #00240f !important;
+  font-size: 1.6rem !important;
+  cursor: pointer;
+}
+
+.btn-cart:hover {
+  color: #ec0000 !important;
+}
+
+.counter {
+  position: relative;
+  bottom: 24px;
+  font-size: 13px;
+  background: green;
+  color: white;
+  padding: 3px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
