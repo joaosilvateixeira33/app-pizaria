@@ -45,10 +45,11 @@
 .modal-main {
   background-color: #d3d3d396;
   padding: 10px;
-  max-height: 80%;
+  height: 24rem;
   overflow-y: auto;
   border-radius: 10px;
   margin-bottom: 20px;
+  
 }
 
 .modal-footer {
