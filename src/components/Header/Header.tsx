@@ -2,14 +2,20 @@ import React, { useState } from "react";
 import "./HeaderStyles.css";
 import logo from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
-import { LoginModal } from "../LoginModal/index";
+import { LoginModal } from "../LoginModal/index.tsx";
+import { CartModal } from "../CartModal/index.tsx";
 
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [loginModal, setLoginModal] = useState(false);
+  const [cartModalOpen, setCartModalOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const toggleCartModal = () => {
+    setCartModalOpen(!cartModalOpen);
   };
 
   return (
@@ -41,7 +47,7 @@ const Header: React.FC = () => {
               </a>
             </li>
             <form className="container-fluid form-button">
-              <div className="cart-container">
+              <div className="cart-container" onClick={toggleCartModal}>
                 <i className="bi bi-cart-fill btn-cart"></i>
                 <span className="counter">0</span>
               </div>
@@ -57,6 +63,7 @@ const Header: React.FC = () => {
         </div>
       </div>
       {loginModal && <LoginModal closeModal={() => setLoginModal(false)} />}
+      {cartModalOpen && <CartModal isOpen={cartModalOpen} onClose={toggleCartModal} />}
     </nav>
   );
 };

@@ -16,7 +16,7 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  max-width: 700px;
+  max-width: 587px;
 }
 
 .close {
@@ -42,26 +42,32 @@
   font-weight: bold;
 }
 
-.options_forms{
+.modal-main {
+  background-color: #d3d3d396;
+  padding: 10px;
+  max-height: 80%;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
-.btn_choose {
-  font-size: 20px;
-  background-color: transparent;
-  color: #00240f;
-  font-weight: bolder;
-  padding: 10px;
-  cursor: pointer;
-  font-weigth: bolder;
-  margin-bottom: 20px;
-  border: none;
-  border-bottom: 2px solid #ec0000; 
-}
-
-.btn_choose:hover{
+.total_price{
   color: #ec0000;
-  border-bottom: 2px solid #00240f; 
+  font-size: 20px;
+}
+
+.btn_finalize{
+  background: green;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
 }

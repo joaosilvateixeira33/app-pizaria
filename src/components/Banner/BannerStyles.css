@@ -57,11 +57,11 @@
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-  .banner_style{
+  .banner_style {
     height: 19rem;
   }
 
-  .banner_content{
+  .banner_content {
     top: 46px;
     right: 84px;
     font-size: 1.4rem;
