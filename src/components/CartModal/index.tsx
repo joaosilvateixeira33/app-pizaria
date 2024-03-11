@@ -14,16 +14,7 @@ export const CartModal: React.FC<CartModalProps> = ({ isOpen, onClose }) => {
         </span>
         <h2 className="title_modal">Your Cart</h2>
         <div className="modal-main">
-            <h4>opa</h4>
-            <h4>opa</h4>
-            <h4>opa</h4>
-            <h4>opa</h4>
-            <h4>opa</h4>
-            <h4>opa</h4>
-            <h4>opa</h4>
-            <h4>opa</h4>
-            <h4>opa</h4>
-            <h4>opa</h4>
+            
         </div>
 
         <div className="modal-footer">
