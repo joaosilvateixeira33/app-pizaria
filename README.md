@@ -1,4 +1,4 @@
-# Projeto lANDING PAGE PIZZARIA PIZZA TIME
+# Projeto pizza time
 O projeto visado na criação de uma pagina na web sobre uma pizzaria, na qual demostra seus produtos saborosos e qualidade excepcional.
 
 ## Status do projeto
